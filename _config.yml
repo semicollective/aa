@@ -8,5 +8,9 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: semicollective
 github_username:  semicollective
 
+sass:
+    sass_dir: _sass
+    style: :compressed
+
 # Build settings
 markdown: kramdown
