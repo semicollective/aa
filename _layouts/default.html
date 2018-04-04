@@ -7,6 +7,7 @@
       <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
       <meta name="description" content="{{ site.description }}">
 
+      <link rel="stylesheet" href="{{ "/aa/css/main.css" | relative_url }}">
       <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
       <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
       <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Roboto+Mono:700" rel="stylesheet">
