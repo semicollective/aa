@@ -10,7 +10,19 @@ github_username:  semicollective
 
 sass:
     sass_dir: _sass
-    style: compressed
+    style: :compressed
 
 # Build settings
 markdown: kramdown
+
+exclude:
+- bin
+- config.rb
+- Gemfile
+- Gemfile.lock
+- gems
+- Procfile
+- Rakefile
+- README.md
+- script
+- vendor
