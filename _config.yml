@@ -10,7 +10,7 @@ github_username:  semicollective
 
 sass:
     sass_dir: _sass
-    style: :compressed
+    style: compressed
 
 # Build settings
 markdown: kramdown
